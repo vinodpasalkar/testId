@@ -21,6 +21,17 @@ java -Dwebdriver.gecko.driver="/Users/Downloads/geckodriver"
 Note : Every command above has to be ran separately and leave the terminal window open after command  execution
 
 
+To configure results in test-output folder: 
+
+
+![ry0Sg](https://user-images.githubusercontent.com/9302926/71100406-dfbcb800-21ac-11ea-87e5-4e37d5471861.png)
+
+
+￼
+Check on Use default reporters option which will create test-output folder in your root folder with all reports.
+
+
+
 To Run : Right click on google.xml and run
 
 
@@ -30,13 +41,6 @@ TestNG Report Generation in Selenium WebDriver
 1. The TestNG will generate the default report.
 2. When you execute testng.xml file, and refresh the project. You will get test-output folder in that folder.
 3. Right click on the emailable-report.html and select the option. Open with the web browser.
-
-
-
-
-
-￼
-Check on Use default reporters option which will create test-output folder in your root folder with all reports.
 
 
 https://www.techbeamers.com/selenium-grid-webdriver-code-example-java/
