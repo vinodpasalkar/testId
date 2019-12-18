@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google Search Tests" duration-ms="18253" started-at="2019-12-18T15:05:19Z" finished-at="2019-12-18T15:05:37Z">
+    <groups>
+    </groups>
+    <test name="Tests on Chrome" duration-ms="9128" started-at="2019-12-18T15:05:19Z" finished-at="2019-12-18T15:05:28Z">
+      <class name="GoogleSearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GoogleSearchTest@2cb4c3ab]" name="setUp" is-config="true" duration-ms="8471" started-at="2019-12-18T15:05:19Z" finished-at="2019-12-18T15:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://localhost:4444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleFeelingLuckyButtonTest()[pri:0, instance:GoogleSearchTest@2cb4c3ab]" name="googleFeelingLuckyButtonTest" duration-ms="138" started-at="2019-12-18T15:05:27Z" finished-at="2019-12-18T15:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleFeelingLuckyButtonTest -->
+        <test-method status="PASS" signature="googleSearchBox()[pri:0, instance:GoogleSearchTest@2cb4c3ab]" name="googleSearchBox" duration-ms="166" started-at="2019-12-18T15:05:27Z" finished-at="2019-12-18T15:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchBox -->
+        <test-method status="PASS" signature="googleSearchButtonTest()[pri:0, instance:GoogleSearchTest@2cb4c3ab]" name="googleSearchButtonTest" duration-ms="128" started-at="2019-12-18T15:05:28Z" finished-at="2019-12-18T15:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchButtonTest -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:GoogleSearchTest@2cb4c3ab]" name="googleTitleTest" duration-ms="27" started-at="2019-12-18T15:05:28Z" finished-at="2019-12-18T15:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="googleUrlTest()[pri:0, instance:GoogleSearchTest@2cb4c3ab]" name="googleUrlTest" duration-ms="20" started-at="2019-12-18T15:05:28Z" finished-at="2019-12-18T15:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleUrlTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:GoogleSearchTest@2cb4c3ab]" name="closeBrowser" is-config="true" duration-ms="143" started-at="2019-12-18T15:05:28Z" finished-at="2019-12-18T15:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- GoogleSearchTest -->
+    </test> <!-- Tests on Chrome -->
+    <test name="Tests on Firefox" duration-ms="18253" started-at="2019-12-18T15:05:19Z" finished-at="2019-12-18T15:05:37Z">
+      <class name="GoogleSearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GoogleSearchTest@68837a77]" name="setUp" is-config="true" duration-ms="15726" started-at="2019-12-18T15:05:19Z" finished-at="2019-12-18T15:05:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://localhost:4444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleFeelingLuckyButtonTest()[pri:0, instance:GoogleSearchTest@68837a77]" name="googleFeelingLuckyButtonTest" duration-ms="494" started-at="2019-12-18T15:05:35Z" finished-at="2019-12-18T15:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleFeelingLuckyButtonTest -->
+        <test-method status="PASS" signature="googleSearchBox()[pri:0, instance:GoogleSearchTest@68837a77]" name="googleSearchBox" duration-ms="253" started-at="2019-12-18T15:05:35Z" finished-at="2019-12-18T15:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchBox -->
+        <test-method status="PASS" signature="googleSearchButtonTest()[pri:0, instance:GoogleSearchTest@68837a77]" name="googleSearchButtonTest" duration-ms="440" started-at="2019-12-18T15:05:35Z" finished-at="2019-12-18T15:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchButtonTest -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:GoogleSearchTest@68837a77]" name="googleTitleTest" duration-ms="48" started-at="2019-12-18T15:05:36Z" finished-at="2019-12-18T15:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="googleUrlTest()[pri:0, instance:GoogleSearchTest@68837a77]" name="googleUrlTest" duration-ms="54" started-at="2019-12-18T15:05:36Z" finished-at="2019-12-18T15:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleUrlTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:GoogleSearchTest@68837a77]" name="closeBrowser" is-config="true" duration-ms="1207" started-at="2019-12-18T15:05:36Z" finished-at="2019-12-18T15:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- GoogleSearchTest -->
+    </test> <!-- Tests on Firefox -->
+  </suite> <!-- Google Search Tests -->
+</testng-results>
